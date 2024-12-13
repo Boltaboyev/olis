@@ -654,6 +654,14 @@ video {
   width: 100%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[140px\] {
+  width: 140px;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -670,6 +678,10 @@ video {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -680,6 +692,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -712,6 +728,10 @@ video {
 
 .gap-\[80px\] {
   gap: 80px;
+}
+
+.gap-\[5px\] {
+  gap: 5px;
 }
 
 .self-start {
@@ -887,6 +907,11 @@ video {
   padding-bottom: 40px;
 }
 
+.py-\[50px\] {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .pb-\[2px\] {
   padding-bottom: 2px;
 }
@@ -909,6 +934,10 @@ video {
 
 .text-start {
   text-align: start;
+}
+
+.font-\[\] {
+  font-family: ;
 }
 
 .text-\[13px\] {
@@ -941,6 +970,10 @@ video {
 
 .text-\[40px\] {
   font-size: 40px;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .font-\[300\] {
@@ -993,8 +1026,24 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\] {
+  color: ;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
 .opacity-80 {
   opacity: 0.8;
+}
+
+.opacity-\[\] {
+  opacity: ;
+}
+
+.opacity-70 {
+  opacity: 0.7;
 }
 
 .outline-none {
@@ -1131,6 +1180,20 @@ video {
   }
 }
 
+@media (max-width: 980px) {
+  .max-\[980px\]\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .max-\[980px\]\:gap-\[\] {
+    gap: ;
+  }
+
+  .max-\[980px\]\:gap-\[40px\] {
+    gap: 40px;
+  }
+}
+
 @media (max-width: 890px) {
   .max-\[890px\]\:w-\[200px\] {
     width: 200px;
@@ -1200,6 +1263,12 @@ video {
 @media (max-width: 670px) {
   .max-\[670px\]\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .max-\[600px\]\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -1312,6 +1381,12 @@ video {
 
   .max-\[400px\]\:text-\[15px\] {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 380px) {
+  .max-\[380px\]\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
 
