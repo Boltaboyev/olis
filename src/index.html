@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ОЛИС</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <header class="py-[15px]">
+        <div class="container2">
+            <nav class="w-full flex justify-between items-center">
+                <a href="./index.html">
+                    <img src="../assets/img/logo.png" alt="" class="w-[120px] max-[400px]:w-[90px]">
+                </a>
+
+                <input type="checkbox" name="" id="nav" class="hidden">
+                <nav
+                    class="flex flex-col max-[1190px]:fixed max-[1190px]:bg-1 max-[1190px]:h-[100vh] max-[1190px]:left-[-100%] max-[1190px]:top-0 max-[1190px]:w-[70%] max-[1190px]:z-[888] max-[1190px]:justify-center max-[1190px]:items-start max-[1190px]:p-[20px] relative max-[420px]:w-[80%] max-[330px]:w-full">
+
+                    <label for="nav"
+                        class="absolute right-[25px] top-[15px] text-[#fff] text-[24px] hidden max-[1090px]:block">
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </label>
+
+                    <ul
+                        class="flex justify-center items-center gap-[15px] pb-[2px] max-[1190px]:flex-col max-[1190px]:items-start max-[1190px]:py-[10px] max-[1190px]:text-[#fff] font-[400] text-[15px]">
+                        <li><a href="#!" class="hover:text-1">О компании</a></li>
+                        <li><a href="#!" class="hover:text-1">Обьекты</a></li>
+                        <li><a href="#!" class="hover:text-1">Пресс-центр</a></li>
+                        <li><a href="#!" class="hover:text-1">Видео</a></li>
+                        <li><a href="#!" class="hover:text-1">Контакты</a></li>
+                    </ul>
+
+                    <ul
+                        class="flex justify-center items-center gap-[15px] pt-[2px] max-[1190px]:flex-col max-[1190px]:items-start max-[1190px]:py-[10px] max-[1190px]:text-[#fff] border-t font-[400] text-[15px]">
+                        <li><a href="#!" class="hover:text-1">Комплексные решения</a></li>
+                        <li><a href="#!" class="hover:text-1">Наше оборудование</a></li>
+                        <li><a href="#!" class="hover:text-1">Оснащение лабораторий</a></li>
+                        <li><a href="#!" class="hover:text-1">Услуги компании</a></li>
+                    </ul>
+
+                    <a href="tel:+38 (067) 822-85-58" class="py-[10px] font-[500] hidden max-[535px]:block">
+                        +38 (067) 822-85-58
+                    </a>
+                </nav>
+
+                <nav class="flex justify-center items-center gap-[20px]">
+                    <a href="#!">
+                        <i class="fa-solid fa-magnifying-glass hover:text-1"></i>
+                    </a>
+
+                    <select class="outline-none border-none hover:text-1 cursor-pointer">
+                        <option>RU</option>
+                        <option>UZ</option>
+                    </select>
+
+                    <a href="tel:+38 (067) 822-85-58"
+                        class="flex justify-center items-center gap-[10px] font-[500] hover:text-1 max-[535px]:hidden">
+                        <i class="fa-solid fa-phone text-1"></i>
+                        +38 (067) 822-85-58
+                    </a>
+
+                    <label for="nav" class="text-1 text-[24px] hidden max-[1190px]:block">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                </nav>
+
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="py-[30px]">
+        <div class="container2">
+            <div class="grid grid-cols-3 max-[1175px]:grid-cols-2 max-[800px]:grid-cols-1 max-[800px]:gap-[30px]">
+                <div class="flex flex-col justify-center items-start gap-[10px]">
+                    <h1 class="text-[40px] font-[900] leading-[115%] text-1 uppercase max-[430px]:text-[25px]">
+                        ТЕХНОЛОГИИ
+                        И ОБОРУДОВАНИЕ
+                    </h1>
+
+                    <p class="text-[30px] font-[300] leading-[115%] max-[430px]:text-[16px]">
+                        для очистки, переработки
+                        и контроля качества зерна
+                    </p>
+
+                    <a href="#!"
+                        class="text-[#fff] bg-1 p-[8px_20px] text-center active:scale-[.95] max-[400px]:w-full">Оставить
+                        заявку</a>
+                </div>
+
+                <div class="col-span-2 max-[1175px]:col-span-1 overflow-hidden">
+                    <img src="../assets/img/showcase.png" alt="" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-[40px]">
+        <div class="container2">
+            <h1
+                class="text-left font-[300] text-[35px] uppercase leading-[130%] max-[890px]:text-[25px] max-[350px]:text-[20px]">
+                <span class="font-[600]">Н</span>аше
+                оборудование
+            </h1>
+
+            <div class="grid grid-cols-3 gap-[20px] py-[20px] max-[1100px]:grid-cols-2 max-[890px]:grid-cols-1">
+                <!-- 1 -->
+                <div
+                    class="flex items-center max-[490px]:flex-col max-[490px]:pr-[0] max-[490px]:gap-[10px] pr-[20px] py-[20px] border rounded-md bg-[url(../assets/img/card-bg/1.png)] overflow-hidden bg-center bg-cover">
+                    <div class="flex justify-between items-center gap-[10px] bg-[#fff] p-[10px] max-[490px]:w-full">
+                        <img src="../assets/svg/1.svg" alt="">
+                        <p class="font-[500]">
+                            Зерноочистительное оборудование
+                        </p>
+                    </div>
+                    <img src="../assets/img/card1/1.png" alt="" class="w-[150px] object-contain">
+                </div>
+
+                <!-- 2 -->
+                <div
+                    class="flex items-center max-[490px]:flex-col max-[490px]:pr-[0] max-[490px]:gap-[10px] pr-[20px] py-[20px] border rounded-md bg-[url(../assets/img/card-bg/2.png)] overflow-hidden bg-center bg-cover">
+                    <div class="flex justify-between items-center gap-[10px] bg-[#fff] p-[10px] max-[490px]:w-full">
+                        <img src="../assets/svg/2.svg" alt="">
+                        <p class="font-[500]">
+                            Зерноочистительное оборудование
+                        </p>
+                    </div>
+                    <img src="../assets/img/card1/2.png" alt="" class="w-[80px] object-contain">
+                </div>
+
+                <!-- 3 -->
+                <div
+                    class="flex items-center max-[490px]:flex-col max-[490px]:pr-[0] max-[490px]:gap-[10px] pr-[20px] py-[20px] border rounded-md bg-[url(../assets/img/card-bg/3.png)] overflow-hidden bg-center bg-cover">
+                    <div class="flex justify-between items-center gap-[10px] bg-[#fff] p-[10px] max-[490px]:w-full">
+                        <img src="../assets/svg/3.svg" alt="">
+                        <p class="font-[500]">
+                            Зерноочистительное оборудование
+                        </p>
+                    </div>
+                    <img src="../assets/img/card1/3.png" alt="" class="w-[100px] object-contain">
+                </div>
+
+                <!-- 4 -->
+                <div
+                    class="flex items-center max-[490px]:flex-col max-[490px]:pr-[0] max-[490px]:gap-[10px] pr-[20px] py-[20px] border rounded-md bg-[url(../assets/img/card-bg/4.png)] overflow-hidden bg-center bg-cover">
+                    <div class="flex justify-between items-center gap-[10px] bg-[#fff] p-[10px] max-[490px]:w-full">
+                        <img src="../assets/svg/4.svg" alt="">
+                        <p class="font-[500]">
+                            Зерноочистительное оборудование
+                        </p>
+                    </div>
+                    <img src="../assets/img/card1/4.png" alt="" class="w-[150px] object-contain">
+                </div>
+
+                <!-- 5 -->
+                <div
+                    class="flex items-center max-[490px]:flex-col max-[490px]:pr-[0] max-[490px]:gap-[10px] pr-[20px] py-[20px] border rounded-md bg-[url(../assets/img/card-bg/5.png)] overflow-hidden bg-center bg-cover">
+                    <div class="flex justify-between items-center gap-[10px] bg-[#fff] p-[10px] max-[490px]:w-full">
+                        <img src="../assets/svg/5.svg" alt="">
+                        <p class="font-[500]">
+                            Зерноочистительное оборудование
+                        </p>
+                    </div>
+                    <img src="../assets/img/card1/5.png" alt="" class="w-[150px] object-contain">
+                </div>
+
+                <!-- 6 -->
+                <div
+                    class="flex items-center max-[490px]:flex-col max-[490px]:pr-[0] max-[490px]:gap-[10px] pr-[20px] py-[20px] border rounded-md bg-[url(../assets/img/card-bg/6.png)] overflow-hidden bg-center bg-cover">
+                    <div class="flex justify-between items-center gap-[10px] bg-[#fff] p-[10px] max-[490px]:w-full">
+                        <img src="../assets/svg/6.svg" alt="">
+                        <p class="font-[500]">
+                            Зерноочистительное оборудование
+                        </p>
+                    </div>
+                    <img src="../assets/img/card1/6.png" alt="" class="w-[120px] object-contain">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-[40px]">
+        <div class="container2">
+            <h1
+                class="text-left font-[300] text-[35px] uppercase leading-[130%] max-[890px]:text-[25px] max-[350px]:text-[20px]">
+                <span class="font-[600]">К</span>ОМПЛЕКСНЫЕ РЕШЕНИЯ
+            </h1>
+
+            <div class="grid grid-cols-3 gap-[20px] py-[20px] max-[1100px]:grid-cols-2 max-[890px]:grid-cols-1">
+                <!-- 1 -->
+                <div
+                    class="flex items-center justify-center max-[490px]:flex-col relative max-[490px]:gap-[10px] max-[350px]:pt-[80px] py-[10px] border rounded-md bg-[url(../assets/img/card-bg/1.png)] overflow-hidden bg-center bg-cover">
+                    <p
+                        class="font-[400] text-[15px] bg-1 p-[5px] text-[#fff] max-[350px]:w-full absolute left-0 top-[10px] ">
+                        Зерноочистительное оборудование
+                    </p>
+                    <img src="../assets/img/card2/1.png" alt="" class="w-[180px] object-contain h-full">
+                </div>
+
+                <!-- 2 -->
+                <div
+                    class="flex items-center justify-center max-[490px]:flex-col relative max-[490px]:gap-[10px] max-[350px]:pt-[80px] py-[10px] border rounded-md bg-[url(../assets/img/card-bg/2.png)] overflow-hidden bg-center bg-cover">
+                    <p
+                        class="font-[400] text-[15px] bg-1 p-[5px] text-[#fff] max-[350px]:w-full absolute left-0 top-[10px] ">
+                        Зерноочистительное оборудование
+                    </p>
+                    <img src="../assets/img/card2/2.png" alt="" class="w-[180px] object-contain h-full">
+                </div>
+
+                <!-- 3 -->
+                <div
+                    class="flex items-center justify-center max-[490px]:flex-col relative max-[490px]:gap-[10px] max-[350px]:pt-[80px] py-[10px] border rounded-md bg-[url(../assets/img/card-bg/3.png)] overflow-hidden bg-center bg-cover">
+                    <p
+                        class="font-[400] text-[15px] bg-1 p-[5px] text-[#fff] max-[350px]:w-full absolute left-0 top-[10px] ">
+                        Зерноочистительное оборудование
+                    </p>
+                    <img src="../assets/img/card2/3.png" alt="" class="w-[180px] object-contain h-full">
+                </div>
+
+                <!-- 4 -->
+                <div
+                    class="flex items-center justify-center max-[490px]:flex-col relative max-[490px]:gap-[10px] max-[350px]:pt-[80px] py-[10px] border rounded-md bg-[url(../assets/img/card-bg/4.png)] overflow-hidden bg-center bg-cover">
+                    <p
+                        class="font-[400] text-[15px] bg-1 p-[5px] text-[#fff] max-[350px]:w-full absolute left-0 top-[10px] ">
+                        Зерноочистительное оборудование
+                    </p>
+                    <img src="../assets/img/card2/2.png" alt="" class="w-[190px] object-contain h-full">
+                </div>
+
+                <!-- 5 -->
+                <div
+                    class="flex items-center justify-center max-[490px]:flex-col relative max-[490px]:gap-[10px] max-[350px]:pt-[80px] py-[10px] border rounded-md bg-[url(../assets/img/card-bg/5.png)] overflow-hidden bg-center bg-cover">
+                    <p
+                        class="font-[400] text-[15px] bg-1 p-[5px] text-[#fff] max-[350px]:w-full absolute left-0 top-[10px] ">
+                        Зерноочистительное оборудование
+                    </p>
+                    <img src="../assets/img/card2/5.png" alt="" class="w-[180px] object-contain h-full">
+                </div>
+
+                <!-- 6 -->
+                <div
+                    class="flex items-center justify-center max-[490px]:flex-col relative max-[490px]:gap-[10px] max-[350px]:pt-[80px] py-[10px] border rounded-md bg-[url(../assets/img/card-bg/6.png)] overflow-hidden bg-center bg-cover">
+                    <p
+                        class="font-[400] text-[15px] bg-1 p-[5px] text-[#fff] max-[350px]:w-full absolute left-0 top-[10px] ">
+                        Зерноочистительное оборудование
+                    </p>
+                    <img src="../assets/img/card2/6.png" alt="" class="w-[150px] object-contain h-full">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-[40px]">
+        <div class="container2">
+            <h1
+                class="text-left font-[300] text-[35px] uppercase leading-[130%] max-[890px]:text-[25px] max-[350px]:text-[20px]">
+                <span class="font-[600]">У</span>слуги
+            </h1>
+
+            <div class="grid grid-cols-3 gap-[30px_20px] py-[20px] max-[1100px]:grid-cols-2 max-[670px]:grid-cols-1">
+                <!-- 1 -->
+                <div class="flex justify-center items-center relative">
+                    <img src="../assets/img/services/1.png" alt="">
+                    <p class="absolute p-[2px_20px] rounded-sm bottom-[-12px] border bg-[#fff] z-10 font-[600]">
+                        Монтаж
+                    </p>
+                </div>
+
+                <div class="flex justify-center items-center relative">
+                    <img src="../assets/img/services/2.png" alt="">
+                    <p class="absolute p-[2px_20px] rounded-sm bottom-[-12px] border bg-[#fff] z-10 font-[600]">
+                        Сервис
+                    </p>
+                </div>
+
+                <div class="flex justify-center items-center relative">
+                    <img src="../assets/img/services/3.png" alt="">
+                    <p class="absolute p-[2px_20px] rounded-sm bottom-[-12px] border bg-[#fff] z-10 font-[600]">
+                        Гарантийа
+                    </p>
+                </div>
+
+                <div class="flex justify-center items-center relative">
+                    <img src="../assets/img/services/4.png" alt="">
+                    <p class="absolute p-[2px_20px] rounded-sm bottom-[-12px] border bg-[#fff] z-10 font-[600]">
+                        Инжиниринг
+                    </p>
+                </div>
+
+                <div class="flex justify-center items-center relative">
+                    <img src="../assets/img/services/5.png" alt="">
+                    <p class="absolute p-[2px_20px] rounded-sm bottom-[-12px] border bg-[#fff] z-10 font-[600]">
+                        Реконструкции
+                    </p>
+                </div>
+
+                <div class="flex justify-center items-center relative">
+                    <img src="../assets/img/services/6.png" alt="">
+                    <p class="absolute p-[2px_20px] rounded-sm bottom-[-12px] border bg-[#fff] z-10 font-[600]">
+                        Автоматизация
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-[40px]">
+        <div class="container2">
+
+            <h1
+                class="text-center font-[300] text-[35px] uppercase leading-[130%] max-[890px]:text-[25px] max-[350px]:text-[20px] mb-[40px]">
+                <span class="font-[600]">П</span>реимущества
+            </h1>
+
+            <div
+                class="grid grid-cols-4 gap-[80px] max-[1272px]:gap-[20px] max-[1066px]:grid-cols-2 max-[520px]:grid-cols-1">
+                <div
+                    class="flex flex-col justify-between items-center text-center max-[420px]:border max-[420px]:p-[10px] max-[420px]:rounded-md">
+                    <img src="../assets/img/circle/1.png" alt="" class="max-[520px]:w-[110px] w-[150px]">
+
+                    <p class="text-center font-[500] leading-[130%]">
+                        Стран, в которых
+                    </p>
+                </div>
+
+                <div
+                    class="flex flex-col justify-between items-center text-center max-[420px]:border max-[420px]:p-[10px] max-[420px]:rounded-md">
+                    <img src="../assets/img/circle/2.png" alt="" class="max-[520px]:w-[110px] w-[150px]">
+
+                    <p class="text-center font-[500] leading-[130%]">
+                        Лет опыта разработок
+                    </p>
+                </div>
+
+                <div
+                    class="flex flex-col justify-between items-center text-center max-[420px]:border max-[420px]:p-[10px] max-[420px]:rounded-md">
+                    <img src="../assets/img/circle/3.png" alt="" class="max-[520px]:w-[110px] w-[150px]">
+
+                    <p class="text-center font-[500] leading-[130%]">
+                        выпускаемого оборудования
+                    </p>
+                </div>
+
+                <div
+                    class="flex flex-col justify-between items-center text-center max-[420px]:border max-[420px]:p-[10px] max-[420px]:rounded-md">
+                    <img src="../assets/img/circle/4.png" alt="" class="max-[520px]:w-[110px] w-[150px]">
+
+                    <p class="text-center font-[500] leading-[130%]">
+                        Работающих производств
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-[40px]">
+        <div class="container2">
+            <div class="grid grid-cols-2 gap-[10px] max-[740px]:grid-cols-1">
+                <div
+                    class="flex flex-col justify-center gap-[30px] items-start p-[10px] max-[740px]:p-0 max-[740px]:gap-[15px]">
+                    <h1
+                        class="font-[300] text-[35px] uppercase leading-[130%] max-[890px]:text-[25px] max-[350px]:text-[20px]">
+                        <span class="font-[600]">О</span> нас
+                    </h1>
+
+                    <p class="font-[400] leading-[150%] opacity-80 max-[340px]:text-[14px]">
+                        Лидер зерноочистительного оборудования в Украине.
+                        Наша компания специализируется в разработке, производстве и внедрении в промышленность
+                        технологий и оборудования для
+                        переработки зерна. <span class="max-[420px]:hidden">Сегодня мы обладаем оригинальными
+                            современными технологиями и оборудованием по всем основным
+                            направлениям очистки зерна, производства муки и крупы, что подтверждается более чем 30-ю
+                            патентами</span>
+                    </p>
+
+                    <a href="#!"
+                        class="text-[#fff] bg-1 p-[7px_20px] active:scale-[.95] max-[420px]:w-full text-center">Скачать
+                        каталог <i class="fa-solid fa-download"></i></a>
+                </div>
+
+                <div class="overflow-hidden">
+                    <img src="../assets/img/about/1.png" alt="" class="w-full h-full object-cover">
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-[10px] max-[740px]:grid-cols-1 max-[740px]:pt-[30px]">
+                <div class="overflow-hidden">
+                    <img src="../assets/img/about/2.jpg" alt="" class="w-full h-full object-cover">
+                </div>
+
+                <div
+                    class="flex flex-col justify-center gap-[30px] items-start p-[10px] max-[740px]:p-0 max-[740px]:gap-[15px]">
+                    <h1
+                        class="font-[300] text-[35px] uppercase text-start leading-[130%] max-[890px]:text-[25px] max-[350px]:text-[20px]">
+                        <span class="font-[600]">В</span> каких странах мы работаем
+                    </h1>
+
+                    <p class="font-[400] leading-[150%] opacity-80 max-[340px]:text-[14px]">
+                        Лидер зерноочистительного оборудования в Украине.
+                        Наша компания специализируется в разработке, производстве и внедрении в промышленность
+                        технологий и
+                        оборудования для
+                        переработки зерна. <span class="max-[420px]:hidden">Сегодня мы обладаем оригинальными
+                            современными
+                            технологиями и оборудованием по всем основным
+                            направлениям очистки зерна, производства муки и крупы, что подтверждается более чем 30-ю
+                            патентами</span>
+                    </p>
+
+                    <a href="#!"
+                        class="text-[#fff] bg-1 p-[7px_20px] active:scale-[.95] max-[420px]:w-full text-center">Открыть
+                        карту <span class="max-[345px]:hidden">готовых проектов</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-[40px]">
+        <div class="container2">
+
+            <h1
+                class="font-[300] text-[35px] uppercase leading-[130%] max-[890px]:text-[25px] max-[350px]:text-[20px] mb-[40px]">
+                <span class="font-[600]">Н</span>аши партнёры
+            </h1>
+
+            <!-- Swiper -->
+            <div class="swiper mySwiper py-[20px]">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="../assets/img/sponsors/1.png" alt="" class="w-full h-full object-contain">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="../assets/img/sponsors/2.png" alt="" class="w-full h-full object-contain">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="../assets/img/sponsors/3.png" alt="" class="w-full h-full object-contain">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="../assets/img/sponsors/4.png" alt="" class="w-full h-full object-contain">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="../assets/img/sponsors/5.png" alt="" class="w-full h-full object-contain">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="../assets/img/sponsors/4.png" alt="" class="w-full h-full object-contain">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="../assets/img/sponsors/2.png" alt="" class="w-full h-full object-contain">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-[40px] bg-[url(../assets/img/banner.png)] bg-center bg-cover">
+        <div class="container2 flex justify-between items-center max-[890px]:flex-col max-[890px]:gap-[20px]">
+            <img src="../assets/img/w-logo.png" alt="" class="w-[320px] max-[890px]:w-[200px] max-[400px]:w-[120px]">
+
+            <div class="flex flex-col bg-[#fff] p-[20px] w-[60%] gap-[15px] max-[890px]:w-[80%] max-[550px]:w-full">
+                <div class="max-[400px]:text-center">
+                    <h1 class="font-[300] text-[25px] uppercase leading-[130%] max-[890px]:text-[16px]">
+                        <span class="font-[600]">Ф</span>орма обратной связи
+                    </h1>
+                    <p class="text-[20px] font-[300] leading-[130%] max-[400px]:text-[15px]">
+                        Заполните форму и мы свяжемся с вами
+                    </p>
+                </div>
+
+                <form action="#!" class="flex flex-col justify-between gap-[15px]">
+                    <div class="flex justify-between items-center max-[890px]:flex-col max-[890px]:gap-[15px]">
+                        <input type="text" placeholder="Имя"
+                            class="w-[48%] border-b border-[#0000004d] outline-none max-[890px]:w-full">
+                        <input type="text" placeholder="Телефон"
+                            class="w-[48%] border-b border-[#0000004d] outline-none max-[890px]:w-full">
+                    </div>
+                    <input type="email" placeholder="E-mail" class="outline-none border-b border-[#0000004d] w-full">
+
+                    <button type="submit"
+                        class="outline-none bg-1 text-[#fff] p-[7px_20px] self-start w-[45%] active:scale-[.95] max-[550px]:w-full">Оставить
+                        заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-[40px]">
+        <div class="container2">
+
+            <h1
+                class="text-center font-[300] text-[35px] uppercase leading-[130%] max-[890px]:text-[25px] max-[350px]:text-[20px] mb-[40px]">
+                <span class="font-[600]">П</span>оследние новости
+            </h1>
+
+
+
+            <div class="swiper mySwiper2 py-[20px]">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="flex gap-[10px] justify-between items-center max-[460px]:flex-col">
+                            <div class="relative max-[460px]:w-full max-[370px]:items-center">
+                                <span class="absolute left-0 top-[15px] bg-1 text-[#fff] text-[13px] p-[1px_4px]">
+                                    15.06.2021
+                                </span>
+                                <img src="../assets/img/bottom-card.png" alt="" class="w-full">
+                            </div>
+
+                            <div class="flex flex-col gap-[10px]">
+                                <p class="font-[600] leading-[125%]">
+                                    Компания ОЛИС запустила в Турции завод
+                                </p>
+
+                                <p class="font-[300] leading-[130%]">
+                                    Компания "ОЛИС" в 2020 году поставила комплектную линию производства зерновых
+                                    хлопьев
+                                </p>
+
+                                <a href="#!" class="text-1 font-[600]">Читать подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="flex gap-[10px] justify-between items-center max-[460px]:flex-col">
+                            <div class="relative max-[460px]:w-full max-[370px]:items-center">
+                                <span class="absolute left-0 top-[15px] bg-1 text-[#fff] text-[13px] p-[1px_4px]">
+                                    15.06.2021
+                                </span>
+                                <img src="../assets/img/bottom-card.png" alt="" class="w-full">
+                            </div>
+
+                            <div class="flex flex-col gap-[10px]">
+                                <p class="font-[600] leading-[125%]">
+                                    Компания ОЛИС запустила в Турции завод
+                                </p>
+
+                                <p class="font-[300] leading-[130%]">
+                                    Компания "ОЛИС" в 2020 году поставила комплектную линию производства зерновых
+                                    хлопьев
+                                </p>
+
+                                <a href="#!" class="text-1 font-[600]">Читать подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="flex gap-[10px] justify-between items-center max-[460px]:flex-col">
+                            <div class="relative max-[460px]:w-full max-[370px]:items-center">
+                                <span class="absolute left-0 top-[15px] bg-1 text-[#fff] text-[13px] p-[1px_4px]">
+                                    15.06.2021
+                                </span>
+                                <img src="../assets/img/bottom-card.png" alt="" class="w-full">
+                            </div>
+
+                            <div class="flex flex-col gap-[10px]">
+                                <p class="font-[600] leading-[125%]">
+                                    Компания ОЛИС запустила в Турции завод
+                                </p>
+
+                                <p class="font-[300] leading-[130%]">
+                                    Компания "ОЛИС" в 2020 году поставила комплектную линию производства зерновых
+                                    хлопьев
+                                </p>
+
+                                <a href="#!" class="text-1 font-[600]">Читать подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="flex gap-[10px] justify-between items-center max-[460px]:flex-col">
+                            <div class="relative max-[460px]:w-full max-[370px]:items-center">
+                                <span class="absolute left-0 top-[15px] bg-1 text-[#fff] text-[13px] p-[1px_4px]">
+                                    15.06.2021
+                                </span>
+                                <img src="../assets/img/bottom-card.png" alt="" class="w-full">
+                            </div>
+
+                            <div class="flex flex-col gap-[10px]">
+                                <p class="font-[600] leading-[125%]">
+                                    Компания ОЛИС запустила в Турции завод
+                                </p>
+
+                                <p class="font-[300] leading-[130%]">
+                                    Компания "ОЛИС" в 2020 году поставила комплектную линию производства зерновых
+                                    хлопьев
+                                </p>
+
+                                <a href="#!" class="text-1 font-[600]">Читать подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="flex gap-[10px] justify-between items-center max-[460px]:flex-col">
+                            <div class="relative max-[460px]:w-full max-[370px]:items-center">
+                                <span class="absolute left-0 top-[15px] bg-1 text-[#fff] text-[13px] p-[1px_4px]">
+                                    15.06.2021
+                                </span>
+                                <img src="../assets/img/bottom-card.png" alt="" class="w-full">
+                            </div>
+
+                            <div class="flex flex-col gap-[10px]">
+                                <p class="font-[600] leading-[125%]">
+                                    Компания ОЛИС запустила в Турции завод
+                                </p>
+
+                                <p class="font-[300] leading-[130%]">
+                                    Компания "ОЛИС" в 2020 году поставила комплектную линию производства зерновых
+                                    хлопьев
+                                </p>
+
+                                <a href="#!" class="text-1 font-[600]">Читать подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./swiper.js"></script>
+</body>
+
+</html>

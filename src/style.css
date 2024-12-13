@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    transition: .2s;
+}
+
+.container2 {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1400px) {
+    .container2 {
+        max-width: 1350px;
+    }
+}
+
+#nav + nav {
+    transition: .4s;
+}
+
+#nav:checked + nav {
+    left: 0;
+}
