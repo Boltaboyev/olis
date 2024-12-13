@@ -6,6 +6,14 @@
     transition: .2s;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-1
+}
+
 .container2 {
     max-width: 90%;
     margin: 0 auto;
