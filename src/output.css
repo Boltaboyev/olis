@@ -788,6 +788,34 @@ video {
   background-image: url(./assets/img/card-bg/6.png);
 }
 
+.bg-\[url\(\.\.\/assets\/img\/banner\.png\)\] {
+  background-image: url(../assets/img/banner.png);
+}
+
+.bg-\[url\(\.\.\/assets\/img\/card-bg\/1\.png\)\] {
+  background-image: url(../assets/img/card-bg/1.png);
+}
+
+.bg-\[url\(\.\.\/assets\/img\/card-bg\/2\.png\)\] {
+  background-image: url(../assets/img/card-bg/2.png);
+}
+
+.bg-\[url\(\.\.\/assets\/img\/card-bg\/3\.png\)\] {
+  background-image: url(../assets/img/card-bg/3.png);
+}
+
+.bg-\[url\(\.\.\/assets\/img\/card-bg\/4\.png\)\] {
+  background-image: url(../assets/img/card-bg/4.png);
+}
+
+.bg-\[url\(\.\.\/assets\/img\/card-bg\/5\.png\)\] {
+  background-image: url(../assets/img/card-bg/5.png);
+}
+
+.bg-\[url\(\.\.\/assets\/img\/card-bg\/6\.png\)\] {
+  background-image: url(../assets/img/card-bg/6.png);
+}
+
 .bg-cover {
   background-size: cover;
 }
